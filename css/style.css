@@ -482,14 +482,16 @@ h6 {
   top: 0;
   right: 0;
   left: 0;
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0.15); }
+  border-bottom: 1px solid #ddd;
+  margin: 0 150px; }
 
 .site-header-inner {
-  height: 65px;
+  height: 135px;
   line-height: 65px;
   max-width: 1000px;
   margin: 0 auto;
-  width: 90%; }
+  width: 90%;
+  margin-top: 100px; }
 
 .site-title {
   text-align: left;
@@ -499,8 +501,20 @@ h6 {
   font-size: 24px;
   color: rgba(0, 0, 0, 0.7); }
 
+.logo {
+  font-weight: bold;
+  font-size: 35px;
+  display: block; }
+
+.subtitle {
+  font-size: 14px;
+  color: #bbb;
+  display: block;
+  line-height: 20px; }
+
 #nav-top {
-  float: right; }
+  float: right;
+  margin-top: 40px; }
   #nav-top .nav-top-items {
     list-style: none;
     padding-left: 0px;
@@ -818,7 +832,8 @@ h6 {
     font-size: 16px;
     letter-spacing: 1px;
     padding-bottom: 5px;
-    font-weight: 300;
+    font-weight: bold;
+    color: #666;
     border-bottom: 1px solid #ddd; }
   .widget-area .category-list-item {
     line-height: 1.9; }
@@ -852,6 +867,14 @@ h6 {
   opacity: .6;
   top: -0.5em; }
 
+.widget_links a {
+  clear: both;
+  float: left;
+  display: block;
+  line-height: 23px;
+  color: #aaa;
+  letter-spacing: 1px; }
+
 .footer {
   margin-top: 2em; }
 
@@ -859,7 +882,7 @@ h6 {
   width: 90%;
   margin: 30px auto 0;
   padding: 20px 0;
-  border-top: 1px solid #e1e1e1;
+  text-align: center;
   color: #aaa;
   font-size: 14px;
   max-width: 1000px;
